@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder Web Effect</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .detailscontainer{
+            background: linear-gradient(to bottom,transparent,rgba(0, 0, 0, 0.911));
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full h-screen bg-black font-['gilroy']">
+       <div class="imagecontainer w-full h-screen">
+        <div class="maincard z-[3] w-full absolute h-screen bg-orange-600">
+            <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+        <div class=" incomingcard z-[2] w-full absolute h-screen bg-green-600"></div>
+       </div>
+       <div  class="absolute top-0 left-0 z-[4] w-full h-screen flex flex-col justify-between ">
+            <div class="navbar flex justify-between items-center text-white px-5 py-6">
+                <div class="prfimg w-[3rem] h-[3rem] rounded-full overflow-hidden bg-red-600">
+                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+                <h3 class="capitalize text-xl font-medium tracking-tighter">they liked you</h3>
+                <div class="chaticon relative flex items-center justify-center rounded-full w-[3rem] h-[3rem] bg-white/20">
+                    <i class="opacity-80 ri-chat-3-fill"></i>
+                    <div class="badge flex items-center justify-center rounded-full absolute top-0 right-0 -translate-y-[5px] translate-x-[3px] w-5 h-5 bg-[#FC5149]">
+                        <h5 class="text-[12px] font-medium">5</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="detailscontainer w-full">
+                <div class="details px-5 py-6 w-full">
+                <div class="flex gap-2.5">
+                    <i class="w-[1.6rem] h-[1.6rem] flex items-center justify-center bg-white rounded-full font-medium ri-corner-left-up-line"></i>
+                    <h3 class="text-white">USA , California</h3>
+                </div>
+                <div class="flex gap-4 text-white mt-0.6">
+                    <h1 class="font-medium tracking-tighter text-6xl">Victoria</h1>
+                    <h1 class="font-medium tracking-tighter text-6xl opacity-60">20</h1>
+                </div>
+                <div class="tags flex gap-2 text-white mt-1.5">
+                    <div class="tag flex items-center bg-white/30 px-2 py-0.5 rounded-full gap-1">
+                        <i class="ri-music-2-fill"></i>
+                        <h3 class="text-rg tracking-tighter">Music</h3>
+                    </div>
+                    <div class="tag flex items-center bg-white/30 px-2 py-0.5 rounded-full gap-1">
+                        <i class="ri-music-2-fill"></i>
+                        <h3 class="text-rg tracking-tighter">Music</h3>
+                    </div>
+                    <div class="tag flex items-center bg-white/30 px-2 py-0.5 rounded-full gap-1">
+                        <i class="ri-music-2-fill"></i>
+                        <h3 class="text-rg tracking-tighter">Music</h3>
+                    </div>
+                </div>
+                <div class="bio text-white/80 mt-2.5">
+                    <h3 class="text-xl">Bio</h3>
+                    <p class="text-sm mt-1.2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis minima consequatur necessitatibus incidunt? Tenetur, architecto.</p>
+                </div>
+                <div class="flex items-start mt-2 gap-1">
+                    <button class="py-1 rounded-xl w-1/2 bg-white">
+                        <i class="text-xl font-semibold ri-close-line"></i>
+                    </button>
+                    <button class="py-1 rounded-xl w-1/2 bg-[#FC5149]">
+                        <i class="text-xl font-semibold text-white ri-heart-2-fill"></i>
+                    </button>
+                </div>
+            </div></div>
+       </div>
+    </div>
+</body>
+</html>
