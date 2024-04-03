@@ -3,6 +3,8 @@
 Check out the creativity on clicking the link😃 
  https://callmedipra.github.io/Tinder-Web-Effect/
 
+This a the mobile App effect of Tinder❤.
+
 # What have I used?
 1. Clean html codes with Twailwind css.
 2. Javascript to make it fully functional.
